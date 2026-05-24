@@ -2,7 +2,43 @@
 
 AVA-Listener is a high-performance, programmable speech runtime and offline ASR (Automatic Speech Recognition) engine. Designed to decouple assistant-specific logic from the core speech pipeline, AVA-Listener provides a blazing-fast, isolated local runtime optimized for latency-critical voice applications.
 
+## Quick Start (NPM Package)
+
+When consuming AVA-Listener as a dependency in your Node.js application:
+
+### 1. Install the Package
+
+```bash
+npm install ava-listener
+```
+
+### 2. Setup Models
+
+The speech runtime requires external ONNX models (~75MB) to function. You must download them via the setup CLI before running the engine.
+
+```bash
+npx ava-listener setup
+```
+
+### 3. Start Listening
+
+```javascript
+const { AVAListener } = require('ava-listener');
+
+async function run() {
+    const listener = new AVAListener({ debug: false });
+    await listener.start();
+    console.log("AVA-Listener is actively listening!");
+}
+
+run();
+```
+
+---
+
 ## Quick Start (Fresh Clone)
+
+If you are developing AVA-Listener directly from the source repository:
 
 ### 1. Clone the Repository
 
