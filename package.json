@@ -1,6 +1,6 @@
 {
   "name": "ava-listener",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "node/index.js",
   "bin": {
     "ava-listener": "scripts/setup_models.js"
@@ -8,7 +8,6 @@
   "exports": {
     ".": "./node/index.js"
   },
-
   "scripts": {
     "start": "node examples/manual_sdk_test.js",
     "test": "node examples/manual_sdk_test.js",
