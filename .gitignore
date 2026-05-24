@@ -1,38 +1,64 @@
-# Dependency directories
+# ----------------------------------------------------------------------------
+# AVA-Listener - Proposed .gitignore
+# ----------------------------------------------------------------------------
+
+# 1. Dependency Directories
 node_modules/
 venv/
-.venv/
 env/
+.env/
+
+# 2. Python Caches & Bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Runtime and Caches
-.ava_cache/
-cache/
-logs/
+# 3. Large Binaries & Models
+models/
+*.onnx
+models_manifest.json
+
+# 4. Runtime State & Logging
 temp/
-verification_outputs/
+out.log
 *.log
-*.tgz
+crash_dumps/
+telemetry_data/
 
-# OS generated files
+# 5. Build Artifacts & Distribution
+*.tgz
+*.zip
+ava-listener-*.tgz
+upload_manifest.json
+repo_upload_plan.json
+
+# 6. Local Development Scratchpads & Audits
+verification_outputs/
+test.js
+test.json
+test_*.py
+PHASE_*.md
+*_REPORT.md
+*_AUDIT.md
+*_CHECKPOINT.md
+*proposal.txt
+bootstrap.lock
+requirements.lock.txt
+
+# 7. OS Generated
 .DS_Store
 Thumbs.db
 
-# Models (Keep the manifest and README, ignore the heavy files)
-models/*.onnx
-models/*.pt
-models/tokens.txt
+# generated verification artifacts
+final_npm_pack*.txt
+npm_pack_dry_run.txt
 
-# Local IDEs
-.idea/
-.vscode/
+# runtime cache
+cache/
+*.json.tmp
 
-# Benchmarks artifacts
-benchmarks/temp/
-benchmarks/reports/
-!benchmarks/BASELINE.md
-
-# Process dumps
-*.dmp
-*.core
+# temporary benchmark outputs
+benchmarks/resource_timeline.json

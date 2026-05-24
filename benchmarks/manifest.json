@@ -1,0 +1,32 @@
+{
+  "baseline": "BASELINE.md",
+  "official_baseline": "final_phase11_report.json",
+  "history": "history.json",
+  "readme": "readme_metrics.md",
+  "retained_files": [
+    "final_phase11_report.json",
+    "benchmark_summary.md",
+    "benchmark_table.json",
+    "history.json",
+    "startup_optimization_report.json",
+    "resource_timeline.json",
+    "readme_metrics.md"
+  ],
+  "deleted_files": [
+    "long_run_report.json",
+    "memory_report.json",
+    "recovery_report.json",
+    "start_stop_report.json",
+    "pre_test_memory*.json",
+    "post_test_memory*.json",
+    "process_cleanup_report*.json",
+    "startup_breakdown.json",
+    "benchmark_results.json",
+    "startup_benchmark_results.json",
+    "restart_benchmark_results.json",
+    "stress_benchmark_results.json",
+    "benchmark_diff.json",
+    "regression_report.json",
+    "scratch_wmic.js"
+  ]
+}

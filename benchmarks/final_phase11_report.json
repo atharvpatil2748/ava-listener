@@ -1,0 +1,19 @@
+{
+  "startup": {
+    "cold_ms": 19138,
+    "warm_ms": 3770,
+    "worker_spawn_ms": 567.3,
+    "worker_ready_ms": 2652.3
+  },
+  "optimization": {
+    "process_scan_before_ms": 2981.75,
+    "process_scan_after_ms": 0.014,
+    "model_verify_before_ms": 2792.29,
+    "model_verify_after_ms": 11.234
+  },
+  "stability": {
+    "startup_success_rate": 100,
+    "worker_failures": 0,
+    "websocket_disconnects": 0
+  }
+}
