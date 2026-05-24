@@ -1,6 +1,6 @@
 {
   "name": "ava-listener",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "node/index.js",
   "bin": {
     "ava-listener": "scripts/setup_models.js"
