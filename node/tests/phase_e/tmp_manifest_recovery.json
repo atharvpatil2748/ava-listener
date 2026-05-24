@@ -1,0 +1,12 @@
+{
+  "manifestVersion": 1,
+  "models": [
+    {
+      "id": "recover.model",
+      "version": "1",
+      "size": "14",
+      "sha256": "c8038d26b02dd19d16154bcbc69dd47f7b1c6c15f263421d46de4113eb116098",
+      "url": "file://C:\\Users\\athar\\Desktop\\AVA-Listener\\ava-listener\\node\\tests\\phase_e\\tmp_model_sources\\recover.model"
+    }
+  ]
+}

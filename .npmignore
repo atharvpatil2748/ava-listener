@@ -1,0 +1,12 @@
+node_modules/
+venv/
+venv_hidden/
+temp/
+tmp_*
+.env
+.DS_Store
+*.zip
+*.tar.gz
+*.tgz
+models/*
+!models/manifests/

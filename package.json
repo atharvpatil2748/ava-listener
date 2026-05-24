@@ -1,0 +1,16 @@
+{
+  "name": "ava-listener",
+  "version": "0.1.0",
+  "main": "node/index.js",
+  "exports": {
+    ".": "./node/index.js"
+  },
+
+  "scripts": {
+    "postinstall": "node node/bootstrap.js --validate-layout"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "ws": "^8.21.0"
+  }
+}

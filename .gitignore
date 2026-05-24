@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Runtime and Caches
+.ava_cache/
+cache/
+logs/
+temp/
+verification_outputs/
+*.log
+*.tgz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Models (Keep the manifest and README, ignore the heavy files)
+models/*.onnx
+models/*.pt
+models/tokens.txt
+
+# Local IDEs
+.idea/
+.vscode/
+
+# Benchmarks artifacts
+benchmarks/temp/
+benchmarks/reports/
+!benchmarks/BASELINE.md
+
+# Process dumps
+*.dmp
+*.core

@@ -1,0 +1,24 @@
+# Local dependencies
+node_modules/
+
+# Local virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local models and cache
+.ava_cache/
+models/*.onnx
+
+# Generated artifacts
+*.tgz
+*.log
+verification_outputs/
+tests/verification_outputs/
+
+# OS generated files
+.DS_Store

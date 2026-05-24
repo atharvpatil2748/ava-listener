@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "phrases": [
+    {
+      "phraseId": "default",
+      "phrase": "hey assistant",
+      "variants": [],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true,
+      "weight": 1.0
+    }
+  ]
+}

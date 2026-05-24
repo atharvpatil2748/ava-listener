@@ -1,0 +1,7 @@
+{
+  "runtime": {
+    "github": "file:///nonexistent/github_runtime",
+    "mirror": "file:///nonexistent/mirror_runtime",
+    "local": "file://C:\\Users\\athar\\Desktop\\AVA-Listener\\ava-listener\\node\\tests\\phase_e\\tmp_runtime_src\\local_runtime"
+  }
+}

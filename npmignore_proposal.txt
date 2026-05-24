@@ -1,0 +1,20 @@
+# Exclude github configurations
+.github/
+
+# Exclude all benchmark baseline files and testing artifacts
+benchmarks/
+tests/
+node/tests/
+
+# Exclude python test artifacts
+.pytest_cache/
+
+# Ignore local dependencies and cache
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.ava_cache/
+*.tgz
+*.log
+.DS_Store

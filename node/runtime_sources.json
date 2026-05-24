@@ -1,0 +1,25 @@
+{
+  "runtime": {
+    "windows-x64": {
+      "github": "https://github.com/fake-repo/fake-release/runtime-windows-x64.zip",
+      "mirror": "https://mirror.example.com/runtime-windows-x64.zip",
+      "local": "file://C:/Users/athar/Desktop/mock_runtime.zip"
+    },
+    "linux-x64": {
+      "github": "https://github.com/fake-repo/fake-release/runtime-linux-x64.tar.gz",
+      "mirror": "https://mirror.example.com/runtime-linux-x64.tar.gz"
+    },
+    "linux-arm64": {
+      "github": "https://github.com/fake-repo/fake-release/runtime-linux-arm64.tar.gz",
+      "mirror": "https://mirror.example.com/runtime-linux-arm64.tar.gz"
+    },
+    "macos-x64": {
+      "github": "https://github.com/fake-repo/fake-release/runtime-macos-x64.tar.gz",
+      "mirror": "https://mirror.example.com/runtime-macos-x64.tar.gz"
+    },
+    "macos-arm64": {
+      "github": "https://github.com/fake-repo/fake-release/runtime-macos-arm64.tar.gz",
+      "mirror": "https://mirror.example.com/runtime-macos-arm64.tar.gz"
+    }
+  }
+}
