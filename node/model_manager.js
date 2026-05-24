@@ -235,6 +235,12 @@ class ModelManager {
             if (!url) {
                 throw new Error(`Model ${model.id} is missing downloadUrl`);
             }
+            if (!model.sha256) {
+                throw new Error(`Model ${model.id} is missing sha256`);
+            }
+            if (!model.targetFilename) {
+                throw new Error(`Model ${model.id} is missing targetFilename`);
+            }
             if (url.startsWith('file://')) {
                 continue; // Skip validation for local files during dev/test if any, though Phase 10 wants GitHub
             }

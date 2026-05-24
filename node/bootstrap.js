@@ -9,6 +9,16 @@ function validatePackageLayout() {
     const required = ['node', 'runtime', 'models', 'profiles'];
     let ok = true;
 
+    // Automatically create model directories so fresh clones do not fail
+    const modelsDir = path.join(root, 'models');
+    const manifestsDir = path.join(modelsDir, 'manifests');
+    if (!fs.existsSync(modelsDir)) {
+        fs.mkdirSync(modelsDir, { recursive: true });
+    }
+    if (!fs.existsSync(manifestsDir)) {
+        fs.mkdirSync(manifestsDir, { recursive: true });
+    }
+
     for (const entry of required) {
         const p = path.join(root, entry);
         if (!fs.existsSync(p)) {

@@ -7,6 +7,10 @@
   },
 
   "scripts": {
+    "start": "node examples/manual_sdk_test.js",
+    "test": "node examples/manual_sdk_test.js",
+    "verify": "node node/bootstrap.js --validate-layout",
+    "setup-models": "node scripts/setup_models.js",
     "postinstall": "node node/bootstrap.js --validate-layout"
   },
   "dependencies": {
