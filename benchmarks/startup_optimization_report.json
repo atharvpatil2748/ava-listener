@@ -1,0 +1,12 @@
+{
+  "before": {
+    "process_scan_ms": 2981.75,
+    "model_verify_ms": 2792.29
+  },
+  "after": {
+    "process_scan_ms": 0.014,
+    "model_verify_ms": 11.234
+  },
+  "startup_improvement_ms": 5762.8,
+  "startup_improvement_percent": 99.8
+}

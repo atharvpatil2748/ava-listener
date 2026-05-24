@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-23T18:23:43.173Z",
+  "metadata": {
+    "os": "Windows_NT 10.0.26200 x64",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13700HX",
+    "ram_gb": "15.71",
+    "python_version": "Python 3.12.12",
+    "node_version": "v20.20.0",
+    "runtime_version": "unknown",
+    "model_versions": "Sherpa ONNX Phase 10"
+  },
+  "metrics": {
+    "runtime_verification_ms": 3773.1535,
+    "model_verification_ms": 2792.2936,
+    "worker_spawn_ms": 1314.3153,
+    "ws_connection_ms": 5.8955,
+    "handshake_ms": 5.4741,
+    "worker_ready_ms": 2711.9841,
+    "startup_time_ms": 10611.0687,
+    "cold_start_ms": 25483,
+    "idle_memory_mb_cold": 29.65234375,
+    "idle_cpu_percent_cold": 0,
+    "warm_start_ms": 21344,
+    "idle_memory_mb_warm": 29.546875,
+    "idle_cpu_percent_warm": 0,
+    "restart_recovery_ms": 4247.6902
+  }
+}
