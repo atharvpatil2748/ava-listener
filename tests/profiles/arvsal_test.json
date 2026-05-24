@@ -1,0 +1,102 @@
+{
+  "_comment": "Test profile — mirrors profiles/arvsal.json exactly. Used by test scripts.",
+  "assistantName": "Arvsal",
+  "profileVersion": 1,
+  "wakePhrases": [
+    {
+      "phraseId": "arvsal_core",
+      "phrase": "arvsal",
+      "variants": [
+        "arvsal",
+        "arsal",
+        "arzal",
+        "arsel",
+        "armsel",
+        "arv sal",
+        "ar sal",
+        "our whistle",
+        "or whistle",
+        "ourvsel",
+        "aircel",
+        "ahsal",
+        "arv"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "hey_arvsal",
+      "phrase": "hey arvsal",
+      "variants": [
+        "hey arvsal",
+        "hey arsal",
+        "hey arsel",
+        "hey armsel",
+        "hey arzal",
+        "hey ar sal",
+        "he arbezal",
+        "hey our whistle",
+        "hey or whistle",
+        "wake up our whistle",
+        "wake upon whistle"
+      ],
+      "threshold": 0.68,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "wake_up_arvsal",
+      "phrase": "wake up arvsal",
+      "variants": [
+        "wake up arvsal",
+        "wake up arsal",
+        "wake up arsel",
+        "wake up our whistle",
+        "wake upon whistle",
+        "wreak up arvsal",
+        "wreak up arsel",
+        "wreak up our whistle"
+      ],
+      "threshold": 0.68,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "listen_arvsal",
+      "phrase": "listen arvsal",
+      "variants": [
+        "listen arvsal",
+        "listen arsal",
+        "listen arsel",
+        "listen our whistle"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "listen_buddy",
+      "phrase": "listen buddy",
+      "variants": [
+        "list buddy",
+        "listen bud",
+        "listen bad",
+        "listen badie"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "listen",
+      "phrase": "listen",
+      "variants": [
+        "listen"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    }
+  ]
+}

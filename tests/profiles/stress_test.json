@@ -1,0 +1,31 @@
+{
+  "_comment": "Stress test profile — high-volume test config. Low thresholds to stress-test false positive rate.",
+  "assistantName": "StressTest",
+  "profileVersion": 1,
+  "wakePhrases": [
+    {
+      "phraseId": "stress_phrase_1",
+      "phrase": "hey assistant",
+      "variants": [
+        "hey assistant",
+        "hey assist",
+        "hey assis"
+      ],
+      "threshold": 0.55,
+      "cooldownMs": 500,
+      "enabled": true
+    },
+    {
+      "phraseId": "stress_phrase_2",
+      "phrase": "wake engine",
+      "variants": [
+        "wake engine",
+        "wakeup engine",
+        "wake up engine"
+      ],
+      "threshold": 0.55,
+      "cooldownMs": 500,
+      "enabled": true
+    }
+  ]
+}

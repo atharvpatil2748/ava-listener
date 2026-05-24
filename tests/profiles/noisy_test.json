@@ -1,0 +1,21 @@
+{
+  "_comment": "Noisy environment test profile — low thresholds to allow detection in high-background-noise conditions.",
+  "assistantName": "NoisyTest",
+  "profileVersion": 1,
+  "wakePhrases": [
+    {
+      "phraseId": "noisy_phrase_1",
+      "phrase": "hey assistant",
+      "variants": [
+        "hey assistant",
+        "hey assist",
+        "hey assis",
+        "hey assent",
+        "hey as ist"
+      ],
+      "threshold": 0.45,
+      "cooldownMs": 1500,
+      "enabled": true
+    }
+  ]
+}
