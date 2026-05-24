@@ -46,3 +46,32 @@ test_*.py
 # Missing from previous pass
 upload_manifest.json
 repo_upload_plan.json
+
+# Reports
+final_npm_pack.txt
+final_npm_pack2.txt
+npm_pack_dry_run.txt
+
+# Cache
+cache/
+
+# Temp
+temp/
+temp_workflows/
+__pycache__/
+
+# Logs
+*.log
+
+# Git
+.git/
+.github/
+
+# Models
+models/
+*.onnx
+*.tar.bz2
+
+# Benchmarks/tests
+benchmarks/
+tests/
