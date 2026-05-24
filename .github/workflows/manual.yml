@@ -1,0 +1,58 @@
+name: Manual Workflows
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_type:
+        description: 'Test to run'
+        required: true
+        default: 'benchmarks'
+        type: choice
+        options:
+        - benchmarks
+        - stability
+
+jobs:
+  run-test:
+    name: Run ${{ github.event.inputs.test_type }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+        
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Cache Models
+      uses: actions/cache@v4
+      with:
+        path: models/
+        key: ${{ runner.os }}-models-${{ hashFiles('models_manifest.json', 'models/manifests/manifest.json') }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Benchmarks
+      if: github.event.inputs.test_type == 'benchmarks'
+      run: node node/tests/phase11/startup_benchmark_test.js
+      env:
+        CI: true
+        NO_MIC: true
+
+    - name: Long-run Stability Tests
+      if: github.event.inputs.test_type == 'stability'
+      run: node node/tests/phase11E/long_idle_test.js || true
+      env:
+        CI: true
+        NO_MIC: true

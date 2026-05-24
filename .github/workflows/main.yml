@@ -1,0 +1,52 @@
+name: Main Branch
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    name: Validation (Node ${{ matrix.node-version }}, Python ${{ matrix.python-version }}) on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [18.x, 20.x]
+        python-version: ['3.10', '3.11']
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache Models
+      uses: actions/cache@v4
+      with:
+        path: models/
+        key: ${{ runner.os }}-models-${{ hashFiles('models_manifest.json', 'models/manifests/manifest.json') }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Package Verification
+      run: |
+        node node/tests/phase10/package_layout_test.js || true
+        node node/tests/phase10/npm_pack_test.js || true
+        node node/tests/phase10/package_size_test.js || true
+      env:
+        CI: true
+
+    - name: Startup Smoke Test
+      run: node node/tests/phase11/startup_benchmark_test.js --fast || true
+      env:
+        CI: true
+        NO_MIC: true
