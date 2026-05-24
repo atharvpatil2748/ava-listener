@@ -1,0 +1,57 @@
+# AVA Listener v0.1.1
+
+Stable public release for AVA Listener with verified support for both GitHub clone and npm package workflows.
+
+## Features
+- Lightweight local wake-word detection runtime
+- Autonomous recovery system
+- Cross-platform support
+- Profile support (ARVSAL / Jarvis / Custom)
+- Runtime validation and startup checks
+- Dynamic model management
+
+## Fixed
+- Fixed missing manifest generation after npm installation
+- Fixed startup crashes from missing model configuration
+- Fixed clone setup inconsistencies
+- Fixed runtime bootstrap regressions
+- Fixed model verification workflow
+
+## Verified Workflows
+
+### GitHub Clone
+
+```bash
+git clone https://github.com/atharvpatil2748/ava-listener.git
+cd ava-listener
+
+npm install
+npm run setup-models
+npm run verify
+npm start
+```
+
+### npm Package
+
+```bash
+npm install ava-listener
+npx ava-listener setup
+```
+
+## Installation
+
+```bash
+npm install ava-listener
+```
+
+## Notes
+
+Large AI model assets are intentionally excluded from the repository and package payload. Required models are automatically configured during setup.
+
+## Release Status
+
+✅ Fresh clone verified  
+✅ npm package verified  
+✅ Runtime verified  
+✅ Setup workflow verified  
+✅ Startup workflow verified
