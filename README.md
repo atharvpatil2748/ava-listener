@@ -163,7 +163,7 @@ Linux/macOS:
 
 **AVA** stands for **ARVSAL Voice Activation**.
 
-**ARVSAL** is the personal AI assistant system that originally motivated this project. AVA-Listener began as the listening and wake-word layer of ARVSAL. Over time, it evolved into an independent, reusable runtime for custom voice activation, capable of powering any assistant without locking you into a single assistant name.
+**ARVSAL (Autonomous Response and Virtual System Layer)** is the personal AI assistant system created my me that originally motivated this project. AVA-Listener began as the listening and wake-word layer of ARVSAL. Over time, it evolved into an independent, reusable runtime for custom voice activation, capable of powering any assistant without locking you into a single assistant name.
 
 ---
 
@@ -1108,35 +1108,88 @@ Use profile inheritance to preserve shared defaults while swapping wake phrases:
 
 ---
 
-## 📊 Benchmarks
+## 📊 Production Baseline
 
-Verified from `ava-listener/benchmarks/benchmark_summary.md` on Windows x64.
+The following values come directly from:
 
-### System Baseline
-| Metric | Value |
-| :--- | :--- |
-| `Cold Start` | `25483.00 ms` |
-| `Warm Start` | `21344.00 ms` |
-| `Worker Restart` | `4247.69 ms` |
-| `Model Verification` | `2792.29 ms` |
-| `Idle Memory` | `29.55 MB` |
+```text
+benchmarks/baseline.md
+```
 
-### Optimization Snapshot
-| Metric | Before | After |
-| :--- | :--- | :--- |
-| `process_scan_ms` | `2981.75` | `0.014` |
-| `model_verify_ms` | `2792.29` | `11.234` |
-| `startup_improvement_ms` | `5762.8` | — |
-| `startup_improvement_percent` | `99.8%` | — |
+### Startup Metrics
 
-### Runtime Resource View
-| Cycle | RSS MB | Heap MB |
-| :--- | :--- | :--- |
-| 1 | `41.15` | `7.22` |
-| 2 | `38.61` | `5.45` |
-| 3 | `39.89` | `6.32` |
-| 4 | `39.12` | `5.50` |
-| 5 | `39.30` | `5.55` |
+| Metric                | Value     |
+| --------------------- | --------- |
+| Warm Start            | 3770 ms   |
+| Cold Start            | 19138 ms  |
+| Worker Spawn          | 567.3 ms  |
+| Worker Ready          | 2652.3 ms |
+| Startup Success       | 100%      |
+| Worker Failures       | 0         |
+| Websocket Disconnects | 0         |
+
+### Optimization Evidence
+
+| Operation          | Before     | After     |
+| ------------------ | ---------- | --------- |
+| Process Scan       | 2981.75 ms | 0.014 ms  |
+| Model Verification | 2792.29 ms | 11.234 ms |
+
+### Startup Improvement
+
+```text
+5762.8 ms improvement
+```
+
+AVA-Listener aggressively optimizes startup behavior by:
+
+* avoiding repeated process scans
+* caching verified runtime state
+* reducing model validation overhead
+* minimizing worker initialization delays
+
+---
+
+## ⚡ Wake Detection Latency
+
+AVA-Listener is designed for low-latency wake detection while remaining fully local and model-flexible.
+
+### Measured AVA Runtime
+
+| Metric                             | Value   |
+| ---------------------------------- | ------- |
+| Approximate wake detection latency | ~250 ms |
+
+These measurements come from runtime benchmarking and startup validation results in the repository.
+
+The latency represents the approximate time between finishing a wake phrase and the event being emitted to the application layer.
+
+---
+
+## Latency Context
+
+| System              | Latency                  |
+| ------------------- | ------------------------ |
+| AVA-Listener        | ~250 ms                  |
+| Picovoice Porcupine | Hardware dependent       |
+| OpenWakeWord        | Hardware/model dependent |
+
+Porcupine and OpenWakeWord do not expose a single universal latency number because runtime performance varies substantially with:
+
+* CPU hardware
+* model selection
+* frame sizes
+* audio pipelines
+* runtime configuration
+
+AVA-Listener prioritizes:
+
+* low latency
+* zero manual model generation
+* custom phrase flexibility
+* offline execution
+
+> **Note:** Unlike traditional wake-word engines that require retraining or generated models for uncommon words, AVA-Listener preserves low latency while allowing arbitrary phrase definitions through configurable variants.
 
 ---
 
