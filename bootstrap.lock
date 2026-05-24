@@ -1,3 +1,0 @@
-# bootstrap.lock
-# This file is used to signal bootstrap lock state for the local runtime installer.
-# It should be created and removed by the bootstrap process, not manually edited.
