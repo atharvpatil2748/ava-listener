@@ -1,0 +1,6 @@
+{
+  "files": {
+    "models/sherpa-streaming.onnx": "...sha256hash...",
+    "models/silero-vad.onnx": "...sha256hash..."
+  }
+}

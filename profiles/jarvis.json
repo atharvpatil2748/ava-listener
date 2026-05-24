@@ -1,0 +1,49 @@
+{
+  "assistantName": "Jarvis",
+  "profileVersion": 1,
+  "wakePhrases": [
+    {
+      "phraseId": "jarvis_core",
+      "phrase": "jarvis",
+      "variants": [
+        "jarvis",
+        "jarvas",
+        "jarbes",
+        "jarvus",
+        "jarbus",
+        "jar vis"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "hey_jarvis",
+      "phrase": "hey jarvis",
+      "variants": [
+        "hey jarvis",
+        "hey jarvas",
+        "hey jarbes",
+        "hey jarvus",
+        "hey jar vis"
+      ],
+      "threshold": 0.68,
+      "cooldownMs": 2000,
+      "enabled": true
+    },
+    {
+      "phraseId": "ok_jarvis",
+      "phrase": "ok jarvis",
+      "variants": [
+        "ok jarvis",
+        "okay jarvis",
+        "ok jarvas",
+        "okay jar vis"
+      ],
+      "threshold": 0.68,
+      "cooldownMs": 2000,
+      "enabled": true
+    }
+  ],
+  "extends": "base.json"
+}

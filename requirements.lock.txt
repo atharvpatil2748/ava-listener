@@ -1,0 +1,26 @@
+# AVAListener — Locked Dependencies (Phase 0 Baseline)
+# Generated: 2026-05-22
+# Python: 3.10.10
+# Environment: venv (c:\Users\athar\Desktop\AVA-Listener\venv)
+#
+# DO NOT EDIT — this file is the Phase 0 reproducibility artifact.
+# Regenerate ONLY when intentionally upgrading dependencies (with plan approval).
+#
+cffi==2.0.0
+coloredlogs==15.0.1
+flatbuffers==25.12.19
+humanfriendly==10.0
+jellyfish==1.2.1
+mpmath==1.3.0
+numpy==2.2.6
+onnxruntime==1.23.2
+packaging==26.2
+protobuf==7.34.1
+pycparser==3.0
+pyreadline3==3.5.4
+RapidFuzz==3.14.5
+sherpa-onnx==1.13.2
+sherpa-onnx-core==1.13.2
+sounddevice==0.5.5
+sympy==1.14.0
+webrtcvad-wheels==2.0.14

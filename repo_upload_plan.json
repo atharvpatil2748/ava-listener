@@ -1,0 +1,4618 @@
+[
+  {
+    "path": ".github",
+    "type": "directory",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE",
+    "type": "directory",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/workflows",
+    "type": "directory",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/workflows/node-tests.yml",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/workflows/package-validation.yml",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".github/workflows/release-validation.yml",
+    "type": "file",
+    "category": "A",
+    "reason": "GitHub workflows and templates",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": ".npmignore",
+    "type": "file",
+    "category": "A",
+    "reason": "Ignore configurations",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "ARCHITECTURE_ALIGNMENT_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "ARCHITECTURE_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "ARCHITECTURE_AUDIT_V2.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "ARCHITECTURE_FREEZE_v1.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "asr",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "asr/sherpa_stream.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "asr/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "asr/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "audio",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "audio/buffer.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "audio/mic.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "audio/vad.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "audio/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "audio/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "ava-listener-0.1.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "BASELINE_METRICS.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "benchmarks",
+    "type": "directory",
+    "category": "D",
+    "reason": "Temporary benchmark artifact",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/BASELINE.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/benchmark_summary.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/benchmark_table.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/CLEANUP_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/final_phase11_report.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/history.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/manifest.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/readme_metrics.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/resource_timeline.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "benchmarks/startup_optimization_report.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Baseline benchmark data",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "bootstrap.lock",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache/metadata",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache/metadata/checksums.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache/metadata/installed_models.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache/models",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "cache/models/decoder.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "cache/models/encoder.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "cache/models/joiner.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "cache/models/silero_vad.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "cache/models/tokens.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "CHANGELOG.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "confidence",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "confidence/scorer.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "confidence/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "confidence/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "config",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "config/schema.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "config/settings.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "config/validation.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "config/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "config/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "core",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "core/engine.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "core/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "core/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "DEBUG_REMEDIATION_SUMMARY.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "decision",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "decision/cooldown.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "decision/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "decision/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "detection",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "detection/confidence.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "detection/matcher.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "detection/variants.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "detection/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "detection/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "docs",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/architecture",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/architecture/config_precedence.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/ARCHITECTURE.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/CHANGELOG.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/DECISIONS.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/diagrams",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/diagrams/package_structure.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/diagrams/runtime_flow.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/diagrams/startup_sequence.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/metadata_templates",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/metadata_templates/bootstrap_state.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/metadata_templates/checksums.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/metadata_templates/installed_models.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/metadata_templates/runtime_state.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/MIGRATION_NOTES.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/PACKAGE_IMPLEMENTATION_PLAN.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/PHASE_TRACKER.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs/implementation/STARTUP_FLOW.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "docs.zip",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "engine.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "examples",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "examples/manual_sdk_test.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "FINAL_VALIDATION_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "github_gitignore_proposal.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Ignore configurations",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "github_release_plan.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "integration",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "integration/stdout_bridge.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "integration/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "integration/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "LICENSE",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "LIFECYCLE_STRESS_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "logs",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "logs/crashes",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "MEMORY_STABILITY_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/decoder.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/encoder.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/joiner.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/manifests",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/manifests/manifest.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/manifests/manifest.schema.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/bpe.model",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/decoder-epoch-99-avg-1-chunk-16-left-128.int8.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/decoder-epoch-99-avg-1-chunk-16-left-128.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/encoder-epoch-99-avg-1-chunk-16-left-128.int8.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/encoder-epoch-99-avg-1-chunk-16-left-128.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/export-onnx-zipformer-online.sh",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/joiner-epoch-99-avg-1-chunk-16-left-128.int8.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/joiner-epoch-99-avg-1-chunk-16-left-128.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/README.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/test_wavs",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/test_wavs/0.wav",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/test_wavs/1.wav",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/test_wavs/8k.wav",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/test_wavs/trans.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26/tokens.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/sherpa-onnx-streaming-zipformer-en-2023-06-26.tar.bz2",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models/silero_vad.onnx",
+    "type": "file",
+    "category": "E",
+    "reason": "Local models/cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "models/tokens.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "models_manifest.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node",
+    "type": "directory",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/benchmark.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/bootstrap.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/bootstrap_lock.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/capability_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/ci_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/config_validator.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/index.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/lifecycle.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/listener.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/model_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/package_validator.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/path_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/process_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/protocol",
+    "type": "directory",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/protocol/handshake.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/protocol/messages.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/protocol/version.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/release_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/runtime_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/runtime_sources.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/state_machine.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/supervisor.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/tests",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/model_verification_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/architecture_mapping_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/checksum_generation_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/ci_manager_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/corrupted_cache_model_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/empty_cache_model_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/external_import_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/external_model_bootstrap_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/fresh_install_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/github_asset_resolution_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/invalid_manifest_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/local_install_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/missing_release_asset_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/model_normalization_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/model_url_validation_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/npm_pack_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/package_layout_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/package_size_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/platform_resolution_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/python_model_cache_resolution_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/release_asset_resolution_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/release_manifest_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/runtime_import_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/runtime_manifest_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/runtime_payload_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/test_manifest.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/unsupported_platform_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/worker_import_environment_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase10/workflow_validation_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11/regression_suite_runner.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11/startup_benchmark_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11/stress_start_stop_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11/worker_restart_benchmark_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E/generate_readme.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E/long_idle_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E/recovery_stress_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E/run_phase11e.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase11E/start_stop_stress_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/model_recovery_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/runner.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/runtime_source_chain_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_manifest_recovery.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache/metadata",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache/metadata/checksums.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache/metadata/installed_models.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache/models",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_recovery_cache/models/recover.model",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_sources",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_model_sources/recover.model",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_runtime_sources_chain.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_runtime_src",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_runtime_src/local_runtime",
+    "type": "directory",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/phase_e/tmp_runtime_src/local_runtime/python.exe",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/repeated_startup_deterministic.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/runtime_fallback_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/runtime_install_sources_test.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/tests/test_isolation.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Test files",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "node/transport.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/utils",
+    "type": "directory",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/utils/logger.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node/utils/retry.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Node.js core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "npmignore_proposal.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Ignore configurations",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "out.log",
+    "type": "file",
+    "category": "D",
+    "reason": "Runtime logs",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "package-lock.json",
+    "type": "file",
+    "category": "A",
+    "reason": "NPM lockfile",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_0_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_0_TO_7_FINAL_PROMOTION_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_1_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_2_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_3_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_4_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_5_5_COMPLETION_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_5_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_5_IMPLEMENTATION_MAP.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_COMPLETION_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_FINAL_VALIDATION.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_IMPLEMENTATION_MAP.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_6_REALITY_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_CLOSEOUT_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_GAP_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_IMPLEMENTATION_MAP.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_7_PROMOTION_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_8_COMPLETION_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_GAP_MATRIX.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_REALITY_AUDIT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_S_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PHASE_S_PLUS_CHECKPOINT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles/arvsal.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles/base.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles/custom.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles/debug.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "profiles/jarvis.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "PROMOTION_DECISION.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "README.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "release_checklist.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "RELEASE_NOTES_v0.1.0.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "repo_structure.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "repo_upload_plan.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "requirements.lock.txt",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "requirements.txt",
+    "type": "file",
+    "category": "B",
+    "reason": "Python dependencies",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "ROADMAP.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/providers",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/providers/base.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/providers/sherpa.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/providers/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/providers/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/asr/streaming.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/asr/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/audio",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/backends",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/backends/base.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/backends/portaudio.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/backends/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/queue_manager.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/realtime",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/realtime/ring_buffer.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/realtime/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/realtime/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/audio/stream.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/worker.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/audio/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/config",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/defaults.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/loader.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/mutability.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/phrases",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/phrases/default.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/profile_loader.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/profile_migrations.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/profile_validator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/schema.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/validation.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/versioning.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/config/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/debug",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/debug/crash_snapshot.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/debug/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/debug/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/events",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/events/bus.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/events/emitter.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/events/priority.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/events/types.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/events/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/fault_classifier.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/recovery_coordinator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/recovery_policy.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/restart_manager.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/hardening/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/health",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/health/reporter.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/health/scorer.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/health/signals.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/health/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/health/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/ipc",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/ipc/channel.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/ipc/messages.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/ipc/protocol.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/ipc/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/kernel",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/dispatcher.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/lifecycle.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/orchestrator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/runtime_state.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/shutdown.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/startup.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/kernel/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/logging",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/context.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/formatters.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/logger.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/sinks.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/logging/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/main.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifest",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifest/manifest.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifest/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifest/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/manifests",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifests/package_constraints.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifests/platform_manifest.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/manifests/release_manifest.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/cooldown.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/ema.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/engine.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/evaluator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/registry",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/registry/phrase_registry.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/registry/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/registry/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/matcher/scorers",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/scorers/base.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/scorers/fuzzy.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/scorers/phonetic.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/scorers/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/scorers/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/matcher/variants.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/matcher/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/models",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/models/cache.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/models/registry.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/models/verifier.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/models/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/pipeline",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/pipeline/linear.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/pipeline/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/asr_resources.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/audio_resources.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/budget.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/cleanup.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/pools.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/vad_resources.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/resources/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/security",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/security/enforcer.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/security/limits.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/security/tokens.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/security/validator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/security/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/session",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/session/context.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/session/manager.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/session/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/session/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/state_machine.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/health_monitor.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/heartbeat.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/restart_policy.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/supervisor.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/watchdog.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/supervisor/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/telemetry",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/collector.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/diagnostics.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/events.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/health.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/logging.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/metrics.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/replay_capture.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/schema.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/telemetry/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/timing",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/timing/clock.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/timing/latency.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/timing/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/timing/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/transport",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/control",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/control/handler.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/control/messages.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/control/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/protocol",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/protocol/schemas.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/protocol/validator.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/protocol/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/transport/stream",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/stream/handler.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/stream/messages.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/stream/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/stream/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/transport/websocket_server.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/transport/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/vad",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/pipeline.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/providers",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/providers/base.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/providers/silero.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/providers/webrtc.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/providers/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/vad/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/watchdog.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/worker",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/worker/bootstrap.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/worker/worker_process.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/worker/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "runtime/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "runtime/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "scripts",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/check_architecture.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/check_baseline_integrity.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/check_clock_usage.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/check_identity.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/do_modularize.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/gen_manifest.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/lifecycle_stress.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/pre_phase_check.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/stress_monitor.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/test_asr.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/test_supervisor_recovery.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/test_websocket.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/verify_startup.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/wake_regression.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "scripts/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "sdk",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "sdk/capability_manager.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "sdk/client.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "sdk/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "sdk/package-lock.json",
+    "type": "file",
+    "category": "A",
+    "reason": "NPM lockfile",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "sdk/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "sdk/test_client.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "telemetry",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "telemetry/collector.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "telemetry/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557565396",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557565396/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557565396/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557565396/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557671359",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557671359/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557671359/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779557671359/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559302771",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559302771/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559302771/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559302771/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559455727",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559455727/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559455727/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559455727/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559519215",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559519215/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559519215/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559519215/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559565283",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559565283/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559565283/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559565283/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559881674",
+    "type": "directory",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559881674/ava-listener-1.0.0.tgz",
+    "type": "file",
+    "category": "D",
+    "reason": "Generated package tarball",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559881674/node_modules",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local dependencies",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "temp/runtime_payload_test_1779559881674/package.json",
+    "type": "file",
+    "category": "B",
+    "reason": "NPM package metadata",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "test.js",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "test.json",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "tests",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/debug_anchor.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/node",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/node/test_debug_overlay.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/node/test_sdk.js",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/profiles",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/profiles/arvsal_test.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/profiles/noisy_test.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/profiles/stress_test.json",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/replay",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/replay/test_replay.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/replay/__init__.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/replay/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_health_bounds.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_node_sdk_ws.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_observability.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_phase5_5.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_profile_propagation.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_recovery.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_subsystem_lifecycle.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_telemetry_queue.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_thread_reuse.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_transition_invariants.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_transport_reliability.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_watchdog_idle.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_websocket.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/runtime/test_ws_reconnect.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/smoke",
+    "type": "directory",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/smoke/test_smoke.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/smoke/__init__.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/smoke/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/test_matcher.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/test_official_streaming.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/test_pipeline.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/test_silero_live.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/__init__.py",
+    "type": "file",
+    "category": "C",
+    "reason": "Python tests",
+    "upload_to_github": true,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "tests/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "test_runtime_logging.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Unclassified root/source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "THREAD_OWNERSHIP_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "utils",
+    "type": "directory",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "utils/logger.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "utils/__init__.py",
+    "type": "file",
+    "category": "A",
+    "reason": "Python core source",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  },
+  {
+    "path": "utils/__pycache__",
+    "type": "directory",
+    "category": "E",
+    "reason": "Python cache",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "venv",
+    "type": "directory",
+    "category": "E",
+    "reason": "Local virtual environment",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "verification_outputs",
+    "type": "directory",
+    "category": "D",
+    "reason": "Local output streams",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "verification_outputs/check_architecture.stdout",
+    "type": "file",
+    "category": "D",
+    "reason": "Local output streams",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "verification_outputs/verify_startup.stdout",
+    "type": "file",
+    "category": "D",
+    "reason": "Local output streams",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "verification_outputs/wake_regression.stdout",
+    "type": "file",
+    "category": "D",
+    "reason": "Local output streams",
+    "upload_to_github": false,
+    "include_in_npm_package": false
+  },
+  {
+    "path": "WAKE_REGRESSION_REPORT.md",
+    "type": "file",
+    "category": "A",
+    "reason": "Documentation",
+    "upload_to_github": true,
+    "include_in_npm_package": true
+  }
+]

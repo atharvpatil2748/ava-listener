@@ -1,0 +1,24 @@
+{
+  "profileVersion": 2,
+  "name": "Base Shared Defaults",
+  "description": "Inheritable defaults",
+  "vad": {
+    "sileroThreshold": 0.15,
+    "aggressiveness": 1
+  },
+  "asr": {
+    "numThreads": 2
+  },
+  "confidence": {
+    "defaultThreshold": 0.78,
+    "emaRiseAlpha": 0.70,
+    "emaDecayAlpha": 0.30,
+    "cooldownSeconds": 2.0
+  },
+  "transcription": {
+    "enableDebug": false
+  },
+  "diagnostics": {
+    "enableInternalTrace": false
+  }
+}

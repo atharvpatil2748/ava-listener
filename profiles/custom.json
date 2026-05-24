@@ -1,0 +1,18 @@
+{
+  "_comment": "Copy this file and fill in your assistant's details to create a custom profile.",
+  "assistantName": "MyAssistant",
+  "profileVersion": 1,
+  "wakePhrases": [
+    {
+      "phraseId": "custom_core",
+      "phrase": "hey assistant",
+      "variants": [
+        "hey assistant",
+        "hey assist"
+      ],
+      "threshold": 0.72,
+      "cooldownMs": 2000,
+      "enabled": true
+    }
+  ]
+}

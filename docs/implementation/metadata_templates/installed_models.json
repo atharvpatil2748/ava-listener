@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "id": "sherpa-streaming",
+      "installedVersion": "2026.1",
+      "latestVersion": "2026.1",
+      "status": "installed"
+    },
+    {
+      "id": "silero-vad",
+      "installedVersion": "5",
+      "latestVersion": "5",
+      "status": "installed"
+    }
+  ]
+}
