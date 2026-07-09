@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3] - 2026-07-09
+### Added
+- Runtime profile switching without restarting the listener or audio stream.
+- Bidirectional worker IPC for receiving `CONFIGURE` routing instructions asynchronously.
+- Atomic phrase registry replacements, ensuring inference thread safety during live configuration updates.
+
 ## [0.1.0] - 2026-05-24
 ### Added
 - Phase 11 official production baseline.

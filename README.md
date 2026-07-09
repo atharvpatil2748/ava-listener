@@ -254,6 +254,7 @@ AVA-Listener combines multiple runtime controls:
 4. **EMA smoothing** — reduces false spikes.
 5. **Cooldown** — prevents repeated triggers.
 6. **Debug mode** — helps you tune phrases quickly.
+7. **Runtime Profile Switching** — seamlessly swap active profiles without restarting the listener or audio stream.
 
 ---
 
@@ -283,6 +284,15 @@ graph TD
     C --> D[Model verification]
     D --> E[Runtime startup]
     E --> F[Listening Ready]
+```
+
+### Runtime Reconfiguration Flow
+
+```mermaid
+graph TD
+    A[loadProfile called via Node SDK] --> B[CONFIGURE IPC Message]
+    B --> C[Atomically replace Phrase Registry]
+    C --> D[Next ASR frame uses new profile]
 ```
 
 ---
@@ -620,6 +630,44 @@ listener.updateConfig({
   "confidence.defaultThreshold": 0.78
 });
 ```
+
+---
+
+## 🔄 Runtime Profile Switching
+
+AVA-Listener allows you to change the active assistant profile seamlessly while the listener is running.
+
+* The Python worker does not restart.
+* The microphone remains continuously active.
+* Audio streaming and ASR processing continue uninterrupted.
+* Wake detection immediately uses the newly loaded profile.
+
+### SDK Example
+
+Use the existing `loadProfile` method on the `AVAListener` instance:
+
+```javascript
+// Start with an initial profile
+await listener.start({
+    profile: "profiles/arvsal.json"
+});
+
+// ...
+
+// Later, switch to a different profile at runtime
+await listener.loadProfile("profiles/interruption.json");
+
+// ...
+
+// Switch back when finished
+await listener.loadProfile("profiles/arvsal.json");
+```
+
+### Backward Compatibility
+
+* Existing applications require no code changes.
+* `loadProfile()` now safely processes the update dynamically at runtime.
+* The original startup behaviour remains entirely unchanged.
 
 ## 📂 Getting Started with Profiles
 
@@ -1295,6 +1343,16 @@ To develop or modify the engine, use the built-in NPM scripts:
 * `npm run verify` : Performs a layout structure and manifest validity check.
 * `npm start` : Runs `examples/manual_sdk_test.js` to immediately test microphone detection.
 * `npm test` : Executes the test runner.
+
+---
+
+## 📦 Version History
+
+### v0.1.3
+* **Runtime Profile Switching**: Profiles can now be hot-swapped seamlessly at runtime.
+* **Bidirectional Worker IPC**: The Python worker now asynchronously receives routing configurations.
+* **No Worker Restart**: VAD and microphone streaming remain fully active during profile swaps.
+* **Fully Backward Compatible**: Existing SDK usage requires no modifications.
 
 ---
 

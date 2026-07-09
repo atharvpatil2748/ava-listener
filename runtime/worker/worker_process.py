@@ -47,6 +47,22 @@ def run_worker(profile: str | None = None, ipc_host: str = "127.0.0.1", ipc_port
         engine = WakeEngine()
         if profile:
             engine.load_profile(profile, debug_overlay=debug)
+            
+        if connected:
+            def _on_ipc_receive(msg: dict):
+                msg_type = msg.get("type")
+                if msg_type == "CONFIGURE":
+                    payload = msg.get("payload", {})
+                    if payload.get("command") == "load_profile":
+                        path = payload.get("path")
+                        if path:
+                            log.info("Runtime CONFIGURE: loading profile %s", path)
+                            try:
+                                engine.load_profile(path, debug_overlay=debug)
+                            except Exception as e:
+                                log.error("Failed to load profile at runtime: %s", e)
+            ipc.start_receiving(_on_ipc_receive)
+
         engine.start()
         # Block until engine stops
         while True:

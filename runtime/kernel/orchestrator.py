@@ -133,12 +133,17 @@ class WakeEngine:
         self._active_profile = load_profile(path, debug_overlay=debug_overlay)
         
         registry = get_registry()
-        registry.clear()
+        new_phrases = []
         for phrase_data in self._active_profile.get("wakePhrases", []):
-            registry.add_phrase(PhraseConfig.from_dict(phrase_data))
+            new_phrases.append(PhraseConfig.from_dict(phrase_data))
             
-        from detection.variants import rebuild_index
-        rebuild_index()
+        with registry._lock:
+            registry.clear()
+            for p in new_phrases:
+                registry.add_phrase(p)
+                
+            from detection.variants import rebuild_index
+            rebuild_index()
         
     def get_effective_config(self) -> dict:
         def flatten(d: dict, prefix: str = "") -> dict:

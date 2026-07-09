@@ -1,6 +1,7 @@
 {
   "name": "ava-listener",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "description": "Offline, transcription-driven wake phrase runtime for flexible custom AI assistants.",
   "main": "node/index.js",
   "bin": {
     "ava-listener": "scripts/setup_models.js"

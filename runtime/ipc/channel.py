@@ -74,6 +74,33 @@ class IPCClient:
         self.host = host
         self.port = port
         self._sock: Optional[socket.socket] = None
+        self._on_receive: Optional[Callable[[dict], None]] = None
+        self._stop_recv = False
+        self._recv_thread: Optional[threading.Thread] = None
+
+    def start_receiving(self, on_receive: Callable[[dict], None]) -> None:
+        if not self._sock:
+            return
+        self._on_receive = on_receive
+        self._stop_recv = False
+        self._recv_thread = threading.Thread(target=self._recv_loop, daemon=True, name="ipc-client-recv")
+        self._recv_thread.start()
+
+    def _recv_loop(self) -> None:
+        from .protocol import recv_json
+        while not getattr(self, "_stop_recv", False) and self._sock:
+            try:
+                obj = recv_json(self._sock)
+                if obj is None:
+                    break
+                log.debug("IPC client receive: %s", obj)
+                if getattr(self, "_on_receive", None):
+                    try:
+                        self._on_receive(obj)
+                    except Exception as e:
+                        log.error("IPC receive callback error: %s", e)
+            except Exception:
+                time.sleep(0.1)
 
     def connect(self, timeout_s: float = 10.0) -> bool:
         deadline = time.time() + timeout_s
@@ -94,6 +121,7 @@ class IPCClient:
         return send_json(self._sock, obj)
 
     def close(self) -> None:
+        self._stop_recv = True
         try:
             if self._sock:
                 self._sock.close()
